@@ -18,7 +18,7 @@ spec:
       containers:
         - name: backend
           # CI pipeline automatically updates this tag
-          image: riaz65/wanderlust-backend:latest
+          image: riaz65/wanderlust-backend:4865f2eebaa8f80bf29a50661e740e6d152029ac
           ports:
             - containerPort: 5000
           env:
