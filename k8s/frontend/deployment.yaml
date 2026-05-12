@@ -18,7 +18,7 @@ spec:
       containers:
         - name: frontend
           # CI pipeline automatically updates this tag
-          image: riaz65/wanderlust-frontend:22f64eba8658267d24926fc4721b51ba6c7caff9
+          image: riaz65/wanderlust-frontend:f25dba52912ca1a65c1213248d911fbf6105b258
           ports:
             - containerPort: 3000
           resources:
